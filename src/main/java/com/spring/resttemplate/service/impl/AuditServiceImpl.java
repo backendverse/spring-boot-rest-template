@@ -4,6 +4,7 @@ import com.spring.resttemplate.models.CreateUserRequest;
 import com.spring.resttemplate.models.User;
 import com.spring.resttemplate.service.interfaces.AuditService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.client.RestTemplate;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class AuditServiceImpl implements AuditService {
@@ -54,7 +56,7 @@ public class AuditServiceImpl implements AuditService {
         if (response.getStatusCode().is2xxSuccessful() && response.hasBody()) {
             return response.getBody();
         }
-        System.out.println("User not found with given id");
+        log.info("User not found with given id : {}", id);
 //        return restTemplate.getForObject("/users/".concat(id), User.class);
         return null;
     }

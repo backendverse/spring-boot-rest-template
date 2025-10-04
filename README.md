@@ -1,4 +1,4 @@
-# Spring Boot RestTemplate Explained 🚀 Complete Guide with Real Examples
+# Spring Boot RestTemplate Advanced 🔥 Error Handler, Interceptor & Timeout Explained
 
 Welcome to **[Backend Verse](https://www.youtube.com/@BackendVerse)**! 🎥  
 In this video, we will explore **Rest Template in Spring Boot** with practical examples. 🚀
@@ -7,24 +7,24 @@ In this video, we will explore **Rest Template in Spring Boot** with practical e
 
 ## ▶ Watch the Tutorial
 
-📺 **[Spring Boot RestTemplate Explained 🚀 Complete Guide with Real Examples](https://youtu.be/v4-L5CZlXSU)**
+📺 **[Spring Boot RestTemplate Advanced 🔥 Error Handler, Interceptor & Timeout Explained](https://youtu.be/NwjfultVrN0)**
 
 ---
 
 ## 📝 What You’ll Learn   
-📌 What is RestTemplate and why it’s used   
-⚡ Making HTTP requests (GET, POST, PUT, DELETE)   
-🔑 Handling headers, params & response mapping   
-🏷️ Real-world example calling external APIs   
-💡 Best practices & alternative to RestTemplate (WebClient)   
+📌 Implementing a Custom Error Handler   
+⚡ Adding a Logging Interceptor for requests/responses   
+🔑 Configuring connection & read timeouts   
+🏷️ Best practices for production-ready RestTemplate   
+💡 Comparing RestTemplate with WebClient for advanced use cases    
 
 ---
 
 ## 🎯 Why Watch This Video?   
-✔️ Master REST API calls in Spring Boot   
-✔️ Understand RestTemplate lifecycle & configuration   
-✔️ Learn with hands-on practical examples   
-✔️ Essential for any backend developer using Spring Boot   
+✔️ Master advanced HTTP client configurations in Spring Boot   
+✔️ Improve API reliability & observability   
+✔️ Prepare for backend developer interviews   
+✔️ Learn clean and maintainable RestTemplate setups   
 
 ---
 
@@ -39,7 +39,7 @@ In this video, we will explore **Rest Template in Spring Boot** with practical e
 
 ---
 
-4. Run the Spring Boot application.
+1. Run the Spring Boot application.
 
 ---
 
